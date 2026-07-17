@@ -1,0 +1,7 @@
+# Packwiz hashes exact bytes. Never normalize any published channel payload.
+site/** -text
+
+# Repository maintenance files stay portable text.
+.gitattributes text eol=lf
+.github/** text eol=lf
+README.md text eol=lf
