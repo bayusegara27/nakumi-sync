@@ -1,0 +1,12 @@
+name = "Fairy Lights"
+filename = "fairylights-neoforge-1.21.1-1.2.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wKhMANDF/versions/pLPcxLib/fairylights-neoforge-1.21.1-1.2.6.jar"
+hash-format = "sha256"
+hash = "463fcf7df2932d10f793013bc0a99f2ee4346007932887f4662c17348a9a80e9"
+
+[update.modrinth]
+mod-id = "wKhMANDF"
+version = "pLPcxLib"

@@ -1,0 +1,50 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/aiimprovements-common.toml"
+hash = "99113ed20833ab95be2a9ca46ffc88e3427b066d4b02646873cdebe2203fd622"
+
+[[files]]
+file = "config/fastsuite.cfg"
+hash = "44198ad591572d87a9f71b0b636229d91508a8c971f9dca907bed3c6d6754193"
+
+[[files]]
+file = "config/krypton_fnp.yaml"
+hash = "7637131dbf6d97f0edca39274fa1afdf43260052c0b62649faf51283c5a1f0be"
+
+[[files]]
+file = "config/tablist.toml"
+hash = "36c824576f2f6d92ffeb7ab59a11735be3159f70d3388d166b6e7b670c87a376"
+
+[[files]]
+file = "CustomSkinLoader/CustomSkinLoader.json"
+hash = "f7e1e683f65792e7b680bcfd6b8dfe5401707f7957301167e3c0bbaec72fd7c8"
+
+[[files]]
+file = "mods/AI-Improvements-1.21-0.5.3.pw.toml"
+hash = "b03e35e056c124a41654139b6801b3692663b9a3d4163eb106b7ee4ab5bde13a"
+metafile = true
+
+[[files]]
+file = "mods/fairylights-neoforge-1.21.1-1.2.6.pw.toml"
+hash = "79a671812b7bfaba70db09b3a14c17673ce24ed95960a0e2e11c7d47861eee2f"
+metafile = true
+
+[[files]]
+file = "mods/FastSuite-1.21.1-6.0.7.pw.toml"
+hash = "a315a1ee5e0c2c3545015d8e891c41b020f35f8cf552b2f1988422002239ecad"
+metafile = true
+
+[[files]]
+file = "mods/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.pw.toml"
+hash = "ba9ac51f6c29f9db753579bb53ff0bbeaf96530698fc440b485d2ebaa269377a"
+metafile = true
+
+[[files]]
+file = "mods/tablist-neoforge-1.21-1.3.jar"
+hash = "2428ab7ff2e3adba8344679533d71a9ca6b4c5a8359d193ed307a94d14fc0176"
+
+[[files]]
+file = "mods/tinyredstone-1.21.1-6.1.5.pw.toml"
+hash = "acb3f84479232841ee2db3ef3e73bf5e3b5cec33742b2d00701e0d5fd3ef8f33"
+metafile = true

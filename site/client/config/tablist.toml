@@ -1,0 +1,27 @@
+[appearance]
+	#Your server's name. Use #SERVERNAME in header/footer to insert it.
+	server_name = "Homestead x Aeronautics"
+	#Text shown above the player list. Multiple entries create animation frames.
+	header = ["#N&#55FFAA&l✦ #SERVERNAME ✦#N&8&m                                      &r#N", "#N&#55FFFF&l✦ #SERVERNAME ✦#N&8&m                                      &r#N"]
+	#Text shown below the player list. Multiple entries create animation frames.
+	footer = ["&fPemain: &#55FFAA#PLAYERCOUNT&7/&#55FFAA#MAXPLAYERS &8• &fPing kamu: &#55FFFF#PING&7 ms#N&fTPS rata2: #CTPS &8• &fTPS terburuk: #CWTPS#N&fMSPT rata2: &#55FFFF#MSPT &8• &fMSPT puncak: &#55FFFF#MAXMSPT &8• &fRAM: &#AA55FF#MEMORY#N&fDunia: &#55FFAA#WORLD &8• &fUptime: &#FFAA00#UPTIME &8• &fWaktu: &e#TIME"]
+	#Display name format. Supports {name}, {rank} placeholders + & color codes.
+	display_name_format = "&#FFFFFF{name}"
+	#How often (ms) the tab list refreshes. Range: 1-10000. Default: 500.
+	update_interval = 1000
+	#Update cycles between animation frame changes. Range: 1-200. Default: 4.
+	animation_interval = 5
+
+[sorting]
+	#How to sort players: NONE, ALPHABETICAL, or RANK.
+	sort_mode = "ALPHABETICAL"
+
+[ftbranks]
+	#When true and FTB Ranks is loaded, uses ftbranks.name_format permission.
+	enable_ftbranks_formatting = false
+
+[afk]
+	#Enable AFK detection. AFK players have greyed-out names.
+	afk_enabled = false
+	#Seconds of inactivity before AFK. Range: 10-3600. Default: 300.
+	afk_timeout = 300
