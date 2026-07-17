@@ -1,4 +1,4 @@
-param([string]$ChannelBaseUrl = '')
+param([string]$ChannelBaseUrl = 'https://bayusegara27.github.io/nakumi-sync')
 
 $ErrorActionPreference = 'Stop'
 $InstanceRoot = $PSScriptRoot
