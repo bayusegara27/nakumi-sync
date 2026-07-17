@@ -49,21 +49,25 @@ function Select-InstancesRoot {
 }
 
 function Find-ExistingInstance {
-    if (Test-Instance $InstanceRoot) { return [IO.Path]::GetFullPath($InstanceRoot) }
+    if ($InstanceRoot) {
+        if (Test-Instance $InstanceRoot) { return [IO.Path]::GetFullPath($InstanceRoot) }
+        return ''
+    }
     if (Test-Instance $PWD.Path) { return $PWD.Path }
-    $Matches = [Collections.Generic.List[IO.DirectoryInfo]]::new()
+    $Matches = [Collections.Generic.List[string]]::new()
     foreach ($Root in Get-InstancesRoots) {
         foreach ($Directory in Get-ChildItem -LiteralPath $Root -Directory -ErrorAction SilentlyContinue) {
             if (!(Test-Instance $Directory.FullName)) { continue }
             $Cfg = Get-Content -LiteralPath (Join-Path $Directory.FullName 'instance.cfg') -Raw -ErrorAction SilentlyContinue
             if ($Directory.Name -match '(?i)Homestead.*(All.of.Create|Aeronautics)' -or
                 $Cfg -match '(?im)^name=.*Homestead.*(All of Create|Aeronautics)') {
-                $Matches.Add($Directory)
+                $Matches.Add($Directory.FullName)
             }
         }
     }
     if ($Matches.Count) {
-        return ($Matches | Sort-Object LastWriteTime -Descending | Select-Object -First 1).FullName
+        return $Matches | ForEach-Object { Get-Item -LiteralPath $_ } |
+            Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName
     }
     return ''
 }
