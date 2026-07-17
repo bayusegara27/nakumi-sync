@@ -1,12 +1,12 @@
 name = "Homestead x Aeronautics - Client Delta Channel"
 author = "Nakumi"
-version = "r9.3"
+version = "r9.4-fullsync"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "45a986ddb7d4945ca54268dc15e470e50bb28b91a44c7a8b1677aaeba427297f"
+hash = "d9e3f890672e52ac1bb4ab8e3afa2ba15f1a092e748014f756e14e79b65c2613"
 
 [versions]
 minecraft = "1.21.1"

@@ -48,3 +48,7 @@ hash = "2428ab7ff2e3adba8344679533d71a9ca6b4c5a8359d193ed307a94d14fc0176"
 file = "mods/tinyredstone-1.21.1-6.1.5.pw.toml"
 hash = "acb3f84479232841ee2db3ef3e73bf5e3b5cec33742b2d00701e0d5fd3ef8f33"
 metafile = true
+
+[[files]]
+file = "nakumi-sync/update-client.ps1"
+hash = "7292fc3d8275ee40f2dbbfa02e8ae8c948dd835f4acae1f83a3ff0f5c901b4b3"

@@ -4,6 +4,9 @@
 <style>body{max-width:760px;margin:60px auto;font:18px system-ui;background:#101418;color:#e8f2ec}a{color:#68e095}code{background:#202830;padding:3px 6px}</style>
 <h1>Nakumi Sync</h1>
 <p>Homestead x All of Create Aeronautics automatic updates.</p>
-<p><a href="Nakumi-Sync-Client-OneClick.cmd">Download client one-click installer</a></p>
-<p>Crafty startup command:</p>
-<pre><code>curl -fsSL https://bayusegara27.github.io/nakumi-sync/Nakumi-Sync-Server-Start.sh | bash</code></pre>
+<h2>Client Windows — lama atau baru</h2>
+<p><a href="Nakumi-Sync-Setup.cmd">Download Nakumi-Sync-Setup.cmd</a></p>
+<p>Double-click sekali. Installer akan menemukan instance lama atau mengunduh snapshot lengkap untuk pemain baru.</p>
+<h2>Crafty Server Windows</h2>
+<pre><code>powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "iex (irm 'https://bayusegara27.github.io/nakumi-sync/Nakumi-Sync-Server-Windows.ps1')"</code></pre>
+<p>Command yang sama menangani server lama maupun folder server baru.</p>
